@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500&family=Ubuntu:wght@300;400;500;700&display=swap");
+
+body {
+  background: #cfd5df;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  /* font-family: "Ubuntu", sans-serif; */
+}
+
+h3 {
+  margin: 0;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+  background: #187add;
+  width: 92%;
+  padding: 15px;
+}
+
+.header h3 {
+  color: #fff;
+  font-size: 20px;
+}
+
+.form{
+    padding: 15px 0;
+    margin-top: 10px;
+}
+
+.data{
+    width: 90%;
+    padding: 0 20px;
+    margin-top: 20px;
+    /* text-align: start; */
+}
+
+.data-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #187add;
+}
+
+.data-heading h3{
+  color: #187add;
+  font-size: 25px;
+}
+
+.data-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 17px 0px;
+    box-shadow: rgba(100,100,111,0.3) 0px 7px 28px 0px;
+}
+
+.data-content h3{
+  color: #222;
+  font-weight: 500;
+}

@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    justify-content: center;
+    background: #7783c5;
+    margin-bottom: 15px;
+}
+
+.header h3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+}
